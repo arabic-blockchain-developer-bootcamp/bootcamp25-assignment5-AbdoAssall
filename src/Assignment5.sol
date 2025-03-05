@@ -39,9 +39,8 @@ contract Assignment5 {
     // - Use an if statement to toggle `isActive` between true and false
     function toggleActive() public {
         // Fill in the logic
-        if(isActive) {
-          isActive = false;
-        }
+        if (isActive) isActive = false; 
+        else isActive = true;
     }
 
     // Function to add a user
